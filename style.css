@@ -1,0 +1,53 @@
+body {
+            font-family: "Cormorant Garamond", serif;
+            color: #040404;
+            background-color: #f5ebeb;
+        }
+
+        h1 {
+            color: #6d0a0a;
+        }
+
+        button {
+            background-color: #f1eff6;
+            color: #7359dd;
+            border: 1.5px solid #000000;
+            padding: 10px 13px;
+            margin: 10px;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        #prekvapeni {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        #prekvapeni.zobrazit {
+           display: flex;
+        }
+
+        .prekvapeni-content {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            max-width: 90%;
+        }
+
+        .prekvapeni-content img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .prekvapeni-content p {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff0000;
+            margin: 20px 0;
+        }
